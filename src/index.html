@@ -2,29 +2,57 @@
 <html lang='en'>
   <head>
     <meta charset='utf-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.13/index.global.min.js'></script>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav>
-     <p>HYBRID <br> <span>Harmony</span></p>
-    </nav>
+  
     <div class="container">
+      <div class="sidebar">
+       <ul>
+       
+          <div class="card" style="margin-left: 0;">
+            <img src='https://robohash.org/janesmith.png?size=50x50'alt="Avatar" class="avatar">
+            <span class="name">Joy Mary (Me)</span>
+        </div>
+       
+        
+          <div class="icon-text-pair">
+            <i class="fas fa-calendar-alt"></i>
+            <span>Choose Days</span>
+        </div>
+        
+       </ul>
+      </div>
         <div id='calendar'></div>
         <div class="who-is-in">
-            <ul>
-                <li>one</li>
-                <li>one</li>
-                <li>one</li>
-                <li>one</li>
-                <li>one</li>
-                <li>one</li>
-                <li>one</li>
-                <li>one</li>
+          <div class="title-div">
+            <h3 class="subheading">IN-OFFICE TODAY</h3>
+          </div>
+           <div class="card">
+                  <img src="https://robohash.org/example.png?size=50x50" alt="Avatar" class="avatar">
+                  <span class="name">John Doe</span>
+              </div>
+            
+           <div class="card">
+              <img src='https://robohash.org/alicejohnson.png?size=50x50' alt="Avatar" class="avatar">
+              <span class="name">Jane Doe</span>
+          </div>
+       
+       <div class="card">
+          <img src="https://robohash.org/example.png?size=50x50" alt="Avatar" class="avatar">
+          <span class="name">John Doe</span>
+      </div>
+   
+                
             </ul>
         </div>
     </div>
-    
+    <nav>
+      <p>HYBRID <span>Harmony App</span> </p>
+      <p>contact us</p>
+     </nav>
     <script src="app.js"></script>
   </body>
 </html>
